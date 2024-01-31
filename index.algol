@@ -1,0 +1,14 @@
+Algorithm SentenceAnalysis
+   Initialize counters: lengthCounter = 0, wordCounter = 0, vowelCounter = 0
+   Read input sentence until a point is encountered
+   For each character in the sentence
+      Increment lengthCounter by 1
+      If the character is a space
+         Increment wordCounter by 1
+      If the character is a vowel (considering 'a', 'e', 'i', 'o', 'u' in both upper and lower case)
+         Increment vowelCounter by 1
+   End for
+   Output lengthCounter as the length of the sentence
+   Output wordCounter as the number of words
+   Output vowelCounter as the number of vowels
+End Algorithm
